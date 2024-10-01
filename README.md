@@ -76,7 +76,3 @@ As part of your chosen project, you may implement **ChatRoomV1**. This project w
 
 ---
 
-## Conclusion
-This README serves as a guide for the exercises related to design patterns and mini-projects. By following the outlined use cases and project requirements, you will enhance your understanding and practical skills in software design principles.
-
-Feel free to modify or expand upon this document as needed!
