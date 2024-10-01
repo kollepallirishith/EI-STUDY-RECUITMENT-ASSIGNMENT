@@ -66,7 +66,7 @@ The application consists of the following files:
 
 1. Compile the server classes:
    ```bash
-   javac  ChatServer.java 
+   javac  src/ChatServer.java 
 
 2. Run the server:
    ```bash
@@ -74,7 +74,7 @@ The application consists of the following files:
 ### 2) Connecting a Client
 1.Compile the client class:
 ```bash
-    javac Client.java
+    javac src/Client.java
 ```
 2.Run the Client:
 ```bash
