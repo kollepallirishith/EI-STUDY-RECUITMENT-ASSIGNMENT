@@ -57,7 +57,11 @@ In this exercise, you are tasked with demonstrating your understanding of variou
 In this exercise, you are required to build a simple console/terminal-based application. The focus should be on implementing solid logic and code quality, while adhering to design principles and patterns.
 ### ChatRoomV1 Mini-Project
 As part of your chosen project, you may implement **ChatRoomV1**. This project will include a chat server and client system that enables real-time communication. Here are the primary features and considerations:
-
+## Key Features
+- **User Connection**: Users can connect to the chat server by specifying the server's IP address and their chosen nickname, ensuring easy access to the chat room.
+- **Real-Time Messaging**: Users can send messages to all participants in the chat room and receive messages from others in real-time, fostering dynamic communication.
+- **Active User Display**: The client provides a dedicated area that displays the list of currently active users, enhancing user awareness of participants in the chat.
+- **Input Validation**: The application includes validation checks, such as preventing the use of reserved nicknames (e.g., "admin"), ensuring a smoother user experience.
 #### Features
 - **Server**: 
   - Handle multiple client connections and manage user interactions.
@@ -65,14 +69,14 @@ As part of your chosen project, you may implement **ChatRoomV1**. This project w
   - Broadcast messages to all users and facilitate private messaging.
   
 - **Client**:
-  - Provide a command-line interface for user interaction.
+  - Provide a user-interface for user interaction.
   - Allow users to input their nickname and connect to the server.
   - Display chat messages and handle user commands effectively.
 
 #### Considerations
-- Adhere to the principles of **OOP**, **SOLID**, and relevant design patterns throughout the implementation.
+- Adhere to the principles of **OOP**, and relevant design patterns throughout the implementation.
 - Focus on writing clean, maintainable, and efficient code.
 - Assume any unknowns and creatively enhance the problem statement to demonstrate your capabilities.
 
----
+
 
