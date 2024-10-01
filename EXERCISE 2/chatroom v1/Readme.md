@@ -62,8 +62,41 @@ The application consists of the following files:
 
 ## How to Run
 
-### Starting the Server
+### 1 )Starting the Server
 
 1. Compile the server classes:
    ```bash
-   javac Server.java ChatServer.java ConnectionHandler.java Admin.java
+   javac  ChatServer.java 
+
+2. Run the server:
+   ```bash
+   java ChatServer
+### 2) Connecting a Client
+1.Compile the client class:
+```bash
+    javac Client.java
+```
+2.Run the Client:
+```bash
+   java Client
+```
+### 3) Enter the server's IP address and your desired nickname.
+### 4) After confirming your nickname, you can start chatting!
+
+## Admin Controls
+
+- To ban a user, type `/ban <nickname>` in the server's console.
+- To shut down the server, type `/quit`.
+
+## Usage
+
+Once connected, users can:
+
+- **Send messages**: Just type your message and hit enter.
+- **Change nickname**: Type `/nick <newNickname>` to change your nickname.
+- **Quit the chat**: Type `/quit` to leave the chat.
+- **Send private messages**: Use `/whisper <nickname> <message>` to send a private message.
+
+
+
+
